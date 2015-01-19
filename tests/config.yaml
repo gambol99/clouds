@@ -1,0 +1,19 @@
+#
+#   Author: Rohith (gambol99@gmail.com)
+#   Date: 2014-08-22 15:45:26 +0100 (Fri, 22 Aug 2014)
+#
+#  vim:ts=4:sw=4:et
+#
+clouds:
+  hq:
+    provider: Openstack
+    openstack_tenant: admin
+    openstack_username: USERNAME
+    openstack_api_key: PASSWORD
+    openstack_auth_url: http://horizon.domain:5000/v2.0/tokens
+  rpc:
+    provider: Rackspace
+    rackspace_username: USERNAME
+    rackspace_api_key: TOKEN
+    version: :v2
+    rackspace_region: :lon
